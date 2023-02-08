@@ -1,0 +1,8 @@
+* {
+	font-family: Arial;
+}
+
+line {
+	stroke:rgb(0,0,139);
+	stroke-width:50;
+}
