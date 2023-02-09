@@ -1,31 +1,24 @@
 function buttonClicked() {
 
-	let line = document.getElementById('svgLine');
-
-	line.classList.remove('')
-
-	line.classList.add('orange');
-
-
-	document.getElementById('svgLine').style.
-
+	var element = document.getElementById("svgLine");
+  	element.classList.toggle("green");
 }
 
-function mouseOver() {
+function mOver() {
 
-	document.getElementById('svgCirc').class = "green";
-
+	var circle = document.getElementById('svgCirc');
+	circle.classList.toggle('orange');
 }
 
-function mouseOut() {
+function mOut() {
 
-	document.getElementById('svgCirc').class = "red";
-
+	var circle = document.getElementById('svgCirc');
+	circle.classList.toggle('orange');
 }
 
 document.getElementById("button").addEventListener("click", buttonClicked);
 
-document.getElementById("svgCirc").addEventListener("onmouseover", mouseOver);
+document.getElementById("svgCirc").addEventListener("mouseover", mOver);
 
-document.getElementById("svgCirc").addEventListener("onmouseout", mouseOut);
+document.getElementById("svgCirc").addEventListener("mouseout", mOut);
 

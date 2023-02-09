@@ -2,17 +2,16 @@
 	font-family: Arial;
 }
 
-.svgLine {
-	stroke:rgb(0,0,139);
-	stroke-width:50;
+.orange {
+	fill:orange;
 }
 
-.red {
-	fill:red;
+h3 {
+	text-align:center;
 }
 
 .green {
-	fill: orange;
+	stroke: rgb(0,200,0);
 }
 
 #frame {
