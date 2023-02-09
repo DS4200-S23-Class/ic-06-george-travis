@@ -4,20 +4,28 @@
 <head>
     <meta charset=utf-8/>
     <link rel="stylesheet" href="style.css">
+
+    <title>ic-06</title>
 </head>
 
 
 <body>
-    <title>ic-06</title>
-
     <h2>Javascript Part 2</h2>
 
-    <svg height="500" width="500">
-        <line x1="50" y1="400" x2="450" y2="400"/>
+    <div>
+
+        <div>
+            <button type="button" id="button">Button</button>
+        </div>
+
+        <svg id="frame">
+            <line x1="50" y1="400" x2="450" y2="400" id="svgLine" class="svgLine"/>
+            <circle cx="450" cy="50" r="40" id="svgCirc" class="red"/>
+        </svg>
+
+    </div>
         
-    </svg>
-
-
+    <script src="main.js"></script>
 </body>
 
 </html>

@@ -2,7 +2,20 @@
 	font-family: Arial;
 }
 
-line {
+.svgLine {
 	stroke:rgb(0,0,139);
 	stroke-width:50;
+}
+
+.red {
+	fill:red;
+}
+
+.green {
+	fill: orange;
+}
+
+#frame {
+	width: 500px;
+	height: 500px;
 }
