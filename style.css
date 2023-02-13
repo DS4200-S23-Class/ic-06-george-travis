@@ -10,8 +10,8 @@ h3 {
 	text-align:center;
 }
 
-.green {
-	stroke: rgb(0,200,0);
+.red {
+	stroke: rgb(255,0,0);
 }
 
 #frame {
