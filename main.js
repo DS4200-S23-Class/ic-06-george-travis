@@ -1,7 +1,7 @@
 function buttonClicked() {
 
 	var element = document.getElementById("svgLine");
-  	element.classList.toggle("green");
+  	element.classList.toggle('red');
 }
 
 function mOver() {
