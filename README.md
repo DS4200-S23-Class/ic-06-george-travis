@@ -1,7 +1,7 @@
 # ic-06
 ic-06 - JavaScript Part 2
 
-Link to GitHub Pages: file:///Users/georgedoty/ic-06-george-travis/index.html
+Link to GitHub Pages: [file:///Users/georgedoty/ic-06-george-travis/index.html]
 
 ## Purpose
 
